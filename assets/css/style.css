@@ -1,0 +1,73 @@
+body{
+    background-color:#161A2B;
+    color:white;
+}
+
+form{
+    font-size: large;
+    width: 100%;    
+}
+
+span{
+    position: absolute;
+    left:180px;
+}
+
+table{
+    font-size: large;  
+}
+
+#table th,#table td{
+    border-bottom: 3px #40e0d0 solid;
+}
+
+
+#mytb{
+    border-spacing: 0;
+}
+
+#mytb th{
+    border: 2px solid black;
+    padding:2px 8px;
+}
+
+#mytb td{
+    border: 2px solid black;
+    padding:2px 8px;
+    margin: auto;
+}
+
+#average{
+    float: right;
+    margin: 0 2px;
+}
+
+#average input{
+    width:50px;
+    border: 1px solid black;
+}
+
+.chart-box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.allbtn{
+    display: flex;
+    height: auto;
+    width: max-content;
+    margin: auto; 
+    gap: 15px;  
+}
+
+.tbl{
+    margin: auto;
+
+}
+.animator {
+    
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: auto;
+}
+
